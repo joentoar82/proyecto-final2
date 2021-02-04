@@ -1,6 +1,8 @@
 # Proyecto Final de la Unidad 2
 
-Este proyecto tiene la finalidad de poder prácticar los repositorios en github y su publicación
+Este proyecto tiene la finalidad de poder prácticar los repositorios en github y su publicación.
+
+Puede ver el __sitio publicado__ [aquí](https://jorge-matador.github.io/proyecto-final2/)
 
 ## Contenido 
 
