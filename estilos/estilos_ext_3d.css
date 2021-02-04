@@ -1,0 +1,12 @@
+
+.animacion{
+    color: #000000;
+}
+.animacion:hover{
+    
+    color: crimson;
+    animation: jello;
+    /* Tipo de animación */
+    animation-duration: 3s;
+    /* duración de la animación*/
+}

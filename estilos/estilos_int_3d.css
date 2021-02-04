@@ -1,0 +1,12 @@
+
+.animacion{
+    color: #000000;
+}
+.animacion:hover{
+    
+    color: crimson;
+    animation: shakeX;
+    /* Tipo de animación */
+    animation-duration: 2s;
+    /* duración de la animación*/
+}

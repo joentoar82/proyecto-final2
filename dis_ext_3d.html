@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Exteriores</title>
+
+    <link rel="stylesheet" href="/estilos/estilos_ext_3d.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+    <!--link de animate.css https://animate.style/#utilities-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/b65cde05e4.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <!--BARRA DE MENÚ ANCLADA-->
+
+    <div class="navbar-fixed">
+        <!--La propiedad "navbar-fixed" permite dejar la barra anclada en la parte superior, 
+        no se pierde al hacer escrol hacia abajo-->
+
+        <nav class="black">
+            <!--"orange" propiedad de color para la barra menú, puede ser cualquier color básico-->
+
+            <div class="nav-wrapper container">
+                <!--"nav-wrapper" crea automaticamente una barra superior para menus y "container" crea margenes 
+                    laterales automaticamente-->
+
+                <a href="/index.html" class="brand-logo right"><img src="/assets/logo/logo.png" alt="img"
+                        style="width: 150px; height: 60px;"></a>
+                <!--"right" propiedad para direccionar el logo, left, center y right-->
+
+                <ul id="nav-menu" class="left hide-on-med-and-down">
+                    <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/contactenos.html">Contactenos</a></li>
+                    <li><a href="#" class="dropdown-trigger" data-target="id_lista">Nuestros Servicios
+                            <!--"dropdown-trigger" atributo activador desplegable-->
+                            <!--data-target="id_lista" permite crear un identificador-->
+                            <i class="material-icons right">arrow_drop_down</i>
+                            <!--"right" permite ubicar el icono hacia la derecha-->
+                            <!--"material-icons" permite llamar la libreria de iconos, en este caso el icono se llama arrow_drop_down-->
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Dropdown Structure -->
+        <!--target="_blank"  esta etiqueta junto con la propiedad "_blank" permite abrir una página en una pestaña nueva-->
+        <ul id="id_lista" class="dropdown-content">
+            <li><a href="/dis_int_3d.html" target="_blank">Diseños de Interiores 3D</a></li>
+            <li><a href="/dis_ext_3d.html" target="_blank">Diseño de Exteriores 3D</a></li>
+            <li class="divider"></li>
+            <!--"divider" esta propiedad permite crear una línea de división en la lista desplegable-->
+            <li><a href="/obras_civiles.html" target="_blank">Obras Civiles</a></li>
+        </ul>
+    </div>
+
+    <!--MATERIAL BOXED-->
+
+    <div class="container section">
+        <h2 style="text-align: center; font-family: 'Gotu', sans-serif;" class="animacion">
+            Exteriores...</h2>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="section">
+                    <!--"materialboxed" esta propiedad permite ampliar la imágen al hacer un click
+                    y "responsive-img" obliga a la imágen respetat el número de columnas del grid-->
+                    <img class="materialboxed responsive-img" width="650"
+                        src="https://i.pinimg.com/originals/e4/a9/f4/e4a9f44acb42df79ad2b5d2fe5045e79.jpg"
+                        data-caption="Interior Casa Miratos, Medellín">
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="section">
+                    <!--"materialboxed" esta propiedad permite ampliar la imágen al hacer un click
+                    y "responsive-img" obliga a la imágen respetat el número de columnas del grid-->
+                    <img class="materialboxed responsive-img" width="650"
+                        src="https://www.grupoarcoo.com/wp-content/uploads/2018/05/15.5_GH-Render-exterior-conjunto-fachadas.jpg"
+                        data-caption="Interior Restaurante Burgos, Neiva">
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="section">
+                    <!--"materialboxed" esta propiedad permite ampliar la imágen al hacer un click
+                    y "responsive-img" obliga a la imágen respetat el número de columnas del grid-->
+                    <img class="materialboxed responsive-img" width="650"
+                        src="https://www.azulparaiso.com.mx/wp-content/uploads/2018/12/RENDER-FACHADA-EXTERIOR-03.png"
+                        data-caption="Interior de las Oficinas Empresa Marketin Design, Cali">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SLYDER-->
+
+    <div class="section">
+        <div class="row">
+            <div class="col s12">
+
+
+                <div class="slider">
+                    <ul class="slides">
+                        <li>
+                            <img
+                                src="https://www.azulparaiso.com.mx/wp-content/uploads/2018/12/RENDER-FACHADA-EXTERIOR-03.png">
+                            <div class="caption center-align">
+                                <h3 class="red-text text-darken-3">Oficinas</h3>
+                                <h5 class="light red-text text-darken-3">Diseño y Modelado 3D, Oficinas para la Empresa
+                                    CANTABRIA S.A. Medellín</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img
+                                src="https://ccpaseodelprado.com/wp-content/uploads/2018/02/Renders-Facha-del-CC-Noche-.jpg">
+                            <div class="caption left-align">
+                                <h3 class="red-text text-darken-3">Centros Comerciales</h3>
+                                <h5 class="light red-text text-darken-3">Diseño y Modelado 3D, para Zonas Comerciales,
+                                    Centro Comercial ALTUR PLAZA - Ciudad de Cali</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="https://i.pinimg.com/originals/e4/a9/f4/e4a9f44acb42df79ad2b5d2fe5045e79.jpg">
+                            <div class="caption right-align">
+                                <h3 class="red-text text-darken-3">Casas</h3>
+                                <h5 class="light red-text text-darken-3">Diseño y Modelado 3D Fachadas, Casa VERNADETU -
+                                    Ciudad de Túnja</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <img
+                                src="https://eva3d.com/wp-content/uploads/2016/07/render-exterior-pasillo-centro-comercial-eva3d.jpg">
+                            <div class="caption center-align">
+                                <h3 class="red-text text-darken-3">Exterior Restaurantes</h3>
+                                <h5 class="light red-text text-darken-3">Diseño y Modelado 3D Restaurantes y Bares,
+                                    Restaurante EL COTULGO - Ciudad de Lima, Perú</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--COLUMNAS DE TEXTO Y CARD-->
+
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m6">
+                <article>
+                    <h2>Plazos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quis voluptas, dolor, ipsa
+                        pariatur nemo explicabo repellat quam nisi sunt recusandae rem? Et, ipsa est vitae, officiis
+                        optio quas deleniti quia iusto quae facilis at inventore itaque, ea corporis sit nobis!
+                        Perferendis, tenetur. Neque praesentium enim maiores animi odio, numquam, officia dicta autem
+                        corrupti maxime voluptatibus delectus a qui possimus.</p>
+                </article>
+                <article>
+                    <h2>Confianza</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quis voluptas, dolor, ipsa
+                        pariatur nemo explicabo repellat quam nisi sunt recusandae rem? Et, ipsa est vitae, officiis
+                        optio quas deleniti quia iusto quae facilis at inventore itaque, ea corporis sit nobis!
+                        Perferendis, tenetur. Neque praesentium enim maiores animi odio, numquam, officia dicta autem
+                        corrupti maxime voluptatibus delectus a qui possimus.</p>
+                </article>
+            </div>
+            <div class="col 12 m6">
+                <article>
+                    <h2>Costos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quis voluptas, dolor, ipsa
+                        pariatur nemo explicabo repellat quam nisi sunt recusandae rem? Et, ipsa est vitae, officiis
+                        optio quas deleniti quia iusto quae facilis at inventore itaque, ea corporis sit nobis!
+                        Perferendis, tenetur. Neque praesentium enim maiores animi odio, numquam, officia dicta autem
+                        corrupti maxime voluptatibus delectus a qui possimus.</p>
+                </article>
+                <article>
+                    <h2>Contratos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quis voluptas, dolor, ipsa
+                        pariatur nemo explicabo repellat quam nisi sunt recusandae rem? Et, ipsa est vitae, officiis
+                        optio quas deleniti quia iusto quae facilis at inventore itaque, ea corporis sit nobis!
+                        Perferendis, tenetur. Neque praesentium enim maiores animi odio, numquam, officia dicta autem
+                        corrupti maxime voluptatibus delectus a qui possimus.</p>
+                </article>
+            </div>
+
+            <!--ASIDE-->
+
+            <aside>
+                <div class="section">
+                    <h2 class="animacion">Algunos de nuestros cursos...</h2>
+                    <div class="row">
+                        <div class="col s12 m3">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://images.adsttc.com/media/images/55e4/8ae5/e58e/ceb7/f100/00ec/newsletter/open-uri20150831-9826-1tmi5ls.jpg?1441041119"
+                                        alt="img" style="height: 450px;">
+                                    <span class="card-title" style="color: crimson; font-size: 40px;">Curso
+                                        Renders</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dignissimos.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Enlace</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m3">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://zao3d.com/wp-content/uploads/2018/04/pasillo-daredevil-promo-02.png"
+                                        alt="img" style="height: 450px;">
+                                    <span class="card-title" style="color: crimson; font-size: 40px;">Curso
+                                        Renders</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dignissimos.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Enlace</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m3">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://i.pinimg.com/originals/91/74/d1/9174d19a8300a7626fae13962a160aee.jpg"
+                                        alt="img" style="height: 450px;">
+                                    <span class="card-title" style="color: crimson; font-size: 40px;">Curso
+                                        Renders</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dignissimos.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Enlace</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m3">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://alejandro3d.com/wp-content/uploads/2020/11/CURSO-CORONA-RENDERER-3DSMAX.jpg"
+                                        alt="img" style="height: 450px;">
+                                    <span class="card-title" style="color: crimson; font-size: 40px;">Curso
+                                        Renders</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dignissimos.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Enlace</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+    <!--BOTÓN CON DEZPLIEGUE HACIA LA IZQUIERDA-->
+
+    <div class="fixed-action-btn">
+        <!--"fixed-action" permite dejar fijo el blotón con la función de despliegue-->
+        <a class="btn-floating btn-large red">
+            <!--"btn-floating" le da la propiedad al icono de ser flotante, "btn-large" propiedad que permite crear un icono grande,
+            "red" se puede colocar cualquier color básico al botón-->
+            <i class="large material-icons">mode_edit</i>
+            <!--se coloca una etiqueta i para llamar el icono desde la librería, en este caso el icono mode_edit -->
+        </a>
+        <ul>
+            <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div>
+
+
+    <!--FOOTER-->
+
+    <footer class="page-footer" style="background: rgb(46, 39, 39);">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text animate__animated animate__tada">JTorres Diseño y Construcción</h5>
+                    <p class="grey-text text-lighten-4">Calle 33 # 45 - 26, Barrio Laureles Medellín</p>
+                    <a href="#">
+                        <h6 style="color: crimson;">arq.jt0682@gmail.com</h6>
+                    </a>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="/index.html">Inicio</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/contactenos.html">Contactenos</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/dis_int_3d.html">Diseño de Interiores</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/dis_ext_3d.html">Diseño de Exteriores</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/obras_civiles.html">Obras Civiles</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright" style="background: black;">
+            <div class="container">
+                © 2021 Copyright JTorres Diseño y Construcción - Todos los derechos reservados
+                <a class="grey-text text-lighten-4 right" href="/obras_civiles.html">Más Links</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--para que pueda funcionar la TABS IN CARDS, se debe copiar el código script contenido en la ruta página
+    MATERIALIZE, sección "JavaScript" y en "Collapsible" se copia el código script de la sección "Initialization",
+    antes de copiarlo en el documento HTML se realiza una etiqueta script y se pega dentro, las dos variables que 
+    trae por defecto el código se borran para esta CARDS.
+    Luego en la misma sección de "JavaScript" se busca "Auto Init" y se copia el código script de la sección
+    "Initialization" se pega después del código - document.addEventListener('DOMContentLoaded', function() { }); -->
+
+    <!--IMPORTANTE; este código siempre debe ir debajo de nuestro script MATERIALIZE-->
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            M.AutoInit();  //este código permite iniciar todo el código JavaScript
+        });
+
+        //script material boxed
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.materialboxed');
+            var instances = M.Materialbox.init(elems);
+        });
+
+        //script slyder
+
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.slider');
+            var instances = M.Slider.init(elems, {
+                indicators: true,   //para quitar los indicadores o puntos debajo de la imágen
+                height: 500,   //la imágen se hace más alta
+                duration: 1000,   //es la transición que hay entre la imágen y el texto al salir, rango de 500 a 1000
+                interval: 5000   //es la velocidad en el cambio automático de las imágenes, rango de 3000 hasta 6000
+
+            });
+        });
+        //script botón flotante
+        document.addEventListener('DOMContentLoaded', function () {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, {
+                direction: 'left',  //permite realizar el dezpliegue al lado izquierdo
+                hoverEnabled: false  //solo permite el dezpliegue al hacer click al botón
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

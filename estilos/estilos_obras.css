@@ -1,0 +1,33 @@
+
+.animacion{
+    color: #000000;
+}
+.animacion:hover{
+    
+    color: crimson;
+    animation: shakeX;
+    /* Tipo de animación */
+    animation-duration: 2s;
+    /* duración de la animación*/
+}
+
+.animacion2{
+    color: #000000;
+    font-family: 'Mali', cursive;
+}
+.animacion2:hover{
+    
+    color: crimson;
+    animation: jello;
+    /* Tipo de animación */
+    animation-duration: 2s;
+    /* duración de la animación*/
+}
+
+p{
+    font-size: 1.5em;
+}
+
+body{
+    font-family: 'Mali', cursive;
+}
